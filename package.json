@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/discord-bot-BrandonSkyTai/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/discord-bot-BrandonSkyTai#readme"
+  "homepage": "https://github.com/RVCC-IDMX/discord-bot-BrandonSkyTai#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
 }
