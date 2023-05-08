@@ -237,5 +237,5 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,visualstudiocode
 
 node_modules
-process.env
+.env
 config.json
