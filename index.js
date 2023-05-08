@@ -1,8 +1,6 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable no-restricted-syntax */
-require('dotenv').config();
-const token = process.env.DISCORD_TOKEN;
 const fs = require('node:fs');
 const path = require('node:path');
 const {
@@ -12,6 +10,7 @@ const { token } = require('./config.json');
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
+client.user.setStatus('online');
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
