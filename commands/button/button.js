@@ -15,7 +15,6 @@ module.exports = {
     const guide = new ButtonBuilder()
       .setCustomId('guide')
       .setLabel('Guide')
-      .setURL('https://discordjs.guide/#before-you-begin')
       .setStyle(ButtonStyle.Primary);
 
     const link = new ButtonBuilder()
