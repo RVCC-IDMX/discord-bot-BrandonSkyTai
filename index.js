@@ -55,7 +55,7 @@ client.on('interactionCreate', async (interaction) => {
     const guideEmbed = new EmbedBuilder()
       .setColor(0x0099FF)
       .setTitle('Guide')
-      .setDescription('This bot contains 4 slash commands that will reply with a pre-determined string, 1 slash command that echoes a user-input, and 1 slash command that contains buttons');
+      .setDescription('This is a bot that has the option of 7 different commands. /ping /echo /user /server /button /cowsay and one secret command. Input these commands to see what each one does!');
     await interaction.channel.send({ embeds: [guideEmbed] });
     await interaction.update({ content: 'Guide opened' });
   }
