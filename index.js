@@ -1,6 +1,8 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
 /* eslint-disable no-restricted-syntax */
+require('dotenv').config();
+const token = process.env.DISCORD_TOKEN;
 const fs = require('node:fs');
 const path = require('node:path');
 const {
