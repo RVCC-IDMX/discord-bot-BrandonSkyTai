@@ -18,7 +18,7 @@ module.exports = {
       .setStyle(ButtonStyle.Primary);
 
     const link = new ButtonBuilder()
-      .setLabel('repo')
+      .setLabel('Repo')
       .setURL('https://github.com/RVCC-IDMX/discord-bot-BrandonSkyTai')
       .setStyle(ButtonStyle.Link);
 
